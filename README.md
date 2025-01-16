@@ -22,7 +22,7 @@ Fetch the following details for Bitcoin, Matic, and Ethereum every 2 hours:
 
 ---
 
-### Task 2: API - `/stats`
+### Task 2: API - `/stats   for a coin`
 **Description:**  
 Provides the latest data (price, market cap, and 24-hour change) for a requested cryptocurrency.
 
@@ -32,7 +32,7 @@ Provides the latest data (price, market cap, and 24-hour change) for a requested
   "coin": "bitcoin" // or matic-network, ethereum
 }
  ```
-# Task 3: Standard Deviation API - `/deviation`
+# Task 3: Standard Deviation API - `/deviation   for a coin`
 
 ## Description
 This API calculates the **Standard Deviation (SD)** of the price for a specified cryptocurrency based on the last 100 records stored in the database.
